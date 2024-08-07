@@ -6,7 +6,7 @@ Geospatial foundation models with self-supervised learning (SSL) using large unl
 
 ![alt text](flowchart.svg "flowchart")
 
-Citation
+
 If you use this code, please cite our paper:
 
 bibtex
@@ -30,4 +30,4 @@ To run the supervised learning models for Multi-Task Learning (MTL) or Single-Ta
 # Random Forest and XGBoost
 For running Random Forest and XGBoost models, look for the VWC and height estimation Python codes in the ML subfolder.
 
-Insert images here
+
