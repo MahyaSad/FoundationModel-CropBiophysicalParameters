@@ -4,7 +4,7 @@ Recent advancements in both remotely sensed datasets and machine learning/deep l
 
 Geospatial foundation models with self-supervised learning (SSL) using large unlabeled datasets can be fine-tuned with small labeled datasets for different downstream tasks, addressing this limitation. In our paper, we utilized SSL with Masked Autoencoders (MAE) and Vision Transformers (VIT) for estimating vegetation Water Content (VWC) and crop height. The SSL model focuses on spatial modeling, while the supervised learning model incorporates both temporal and spatial dimensions.
 
-![alt text](URL_to_image "metod")
+![alt text](flowchart.svg "flowchart")
 
 Citation
 If you use this code, please cite our paper:
