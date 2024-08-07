@@ -1,10 +1,10 @@
 # Estimating Crop Biophysical Parameters through Self-Supervised Learning with Foundation Models and Multimodal SAR and Optical Observations
 
-ecent advancements in both remotely sensed datasets and machine learning/deep learning techniques have made these tools popular for various agricultural applications, such as crop classification, monitoring, and yield prediction. However, the scarcity of labeled data for crop monitoring and biophysical parameter estimation has made it challenging to use deep learning techniques effectively.
+Recent advancements in both remotely sensed datasets and machine learning/deep learning techniques have made these tools popular for various agricultural applications, such as crop classification, monitoring, and yield prediction. However, the scarcity of labeled data for crop monitoring and biophysical parameter estimation has made it challenging to use deep learning techniques effectively.
 
-Geospatial foundation models with self-supervised learning (SSL) using large unlabeled datasets can be fine-tuned with small labeled datasets for different downstream tasks, addressing this limitation. In our paper, we utilize SSL with Masked Autoencoders (MAE) and Vision Transformers (VIT) for estimating crop Volumetric Water Content (VWC) and height. The SSL model focuses on spatial modeling, while the supervised learning model incorporates both temporal and spatial dimensions.
+Geospatial foundation models with self-supervised learning (SSL) using large unlabeled datasets can be fine-tuned with small labeled datasets for different downstream tasks, addressing this limitation. In our paper, we utilized SSL with Masked Autoencoders (MAE) and Vision Transformers (VIT) for estimating vegetation Water Content (VWC) and crop height. The SSL model focuses on spatial modeling, while the supervised learning model incorporates both temporal and spatial dimensions.
 
-Insert images here
+![alt text](URL_to_image "metod")
 
 Citation
 If you use this code, please cite our paper:
