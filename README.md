@@ -168,32 +168,5 @@ optimizer_config = {
 - MAE (Mean Absolute Error)
 - RMSE (Root Mean Square Error)
 
-
-## **Pre-trained Models**
-
-The repository includes pre-trained encoders:
-- `sar_encoder.pth`: SAR encoder weights (15M parameters)
-- `optical_encoder.pth`: Optical encoder weights (15M parameters)
-
-**Loading Pre-trained Models:**
-```python
-import torch
-from model_utils import load_pretrained_encoder
-
-# Load SAR encoder
-sar_encoder = load_pretrained_encoder(
-    './pretrained_models/sar_encoder.pth',
-    input_channels=3,
-    patch_size=256
-)
-
-# Load Optical encoder  
-optical_encoder = load_pretrained_encoder(
-    './pretrained_models/optical_encoder.pth',
-    input_channels=3,
-    patch_size=256
-)
-```
-
 ## **Citation**
 
