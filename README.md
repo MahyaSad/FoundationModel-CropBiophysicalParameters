@@ -10,20 +10,20 @@ This repository contains the implementation of geospatial foundation models for 
 ## **Repository Structure**
 
 ```
-├── SSL/                           # Self-Supervised Learning
-│   ├── sar_ssl_mae.py            # SAR Masked Autoencoder training
-│   ├── optical_ssl_mae.py        # Optical Masked Autoencoder training
-│   ├── pretrained_models/        # Pre-trained encoder weights
-│   └── configs/                  # SSL configuration files
-├── supervised_learning/           # Supervised Learning Models
-│   ├── stl_fm.py                 # Single-Task Learning Foundation Model
-│   ├── mtl_fm.py                 # Multi-Task Learning Foundation Model
-│   └── model_utils.py            # Model architecture utilities
-├── ML/                           # Traditional Machine Learning
-│   ├── random_forest.py          # Random Forest implementation
-│   ├── xgboost_model.py          # XGBoost implementation
-│   └── feature_importance.py     # SHAP analysis
-└── data_processing/              # Data preprocessing utilities
+├── ML/                           
+│   ├── sar_ssl_mae.py            
+│   ├── optical_ssl_mae.py     
+│   ├── pretrained_models/      
+│   └── configs/                
+├── SSL/          
+│   ├── stl_fm.py                
+│   ├── mtl_fm.py                 
+│   └── model_utils.py           
+├── Supervised Learning/                          
+│   ├── random_forest.py          
+│   ├── xgboost_model.py        
+│   └── feature_importance.py    
+└── data_processing/             
 ```
 
 ## **Model Architecture & Hyperparameters**
