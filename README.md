@@ -11,19 +11,17 @@ This repository contains the implementation of geospatial foundation models for 
 
 ```
 ├── ML/                           
-│   ├── sar_ssl_mae.py            
-│   ├── optical_ssl_mae.py     
-│   ├── pretrained_models/      
-│   └── configs/                
+│   ├── VWC.py            
+│   ├── Height.py                  
 ├── SSL/          
-│   ├── stl_fm.py                
-│   ├── mtl_fm.py                 
+│   ├── SSL_FM_optical.py                
+│   ├── SSL_FM_SAR.py                 
 │   └── model_utils.py           
 ├── Supervised Learning/                          
-│   ├── random_forest.py          
-│   ├── xgboost_model.py        
-│   └── feature_importance.py    
-└── data_processing/             
+│   ├── MTL.py          
+│   ├── STL_height.py        
+│   └── STL_VWC.py    
+          
 ```
 
 ## **Model Architecture & Hyperparameters**
