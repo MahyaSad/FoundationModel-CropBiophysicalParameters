@@ -169,4 +169,5 @@ optimizer_config = {
 - RMSE (Root Mean Square Error)
 
 ## **Citation**
+Hashemi, M.G.Z., Alemohammad, H., Jalilvand, E., Tan, P.-N., Judge, J., Cosh, M., & Das, N.N. (2025). Estimating crop biophysical parameters from satellite-based SAR and optical observations using self-supervised learning with geospatial foundation models. Remote Sensing of Environment, 327, 114825. https://doi.org/10.1016/j.rse.2025.114825
 
